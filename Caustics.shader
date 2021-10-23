@@ -57,7 +57,6 @@ Shader "Custom/Caustics"
             float2 uv_NormalB;
             float4 screenPos;
             float3 worldPos;
-            float3 viewDir;
         };
 
         sampler2D _CameraDepthTexture;
